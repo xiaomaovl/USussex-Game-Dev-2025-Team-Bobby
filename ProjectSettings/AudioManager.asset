@@ -16,4 +16,8 @@ AudioManager:
   m_AmbisonicDecoderPlugin: 
   m_DisableAudio: 0
   m_VirtualizeEffects: 1
+<<<<<<< HEAD
   m_RequestedDSPBufferSize: 1024
+=======
+  m_RequestedDSPBufferSize: 0
+>>>>>>> 9ea477f0ab4776eb3dffcc99ec2659bbb7e7cfc2

@@ -6,6 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+    path: Assets/Scenes/BobbyLevel1.unity
+    guid: d1089a006b878a34d83e8d4e91e988bb
+  - enabled: 1
+    path: Assets/Scenes/BobbyLevel2.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/VR Rig Test Scene.unity
+    guid: 84c0a1bbd9995f3488a456ad93b8b1ee
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dfe8135b9d20021449742f822191540c,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8b956ff07ea1ef14da744bed5d78d6b8,
+      type: 2}

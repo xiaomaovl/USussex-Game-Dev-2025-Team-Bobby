@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class PlayerHealth : MonoBehaviour
 {
 
+    PostProcessVolume volume;
+    Vignette Vignette;
+
+    public GameObject PP;
 
     public float health;
     public float maxHealth;

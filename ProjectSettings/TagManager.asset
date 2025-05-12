@@ -9,11 +9,12 @@ TagManager:
   - BoltRear
   - Bullet
   - Key
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PP
   - Water
   - UI
   - GrabInteractible

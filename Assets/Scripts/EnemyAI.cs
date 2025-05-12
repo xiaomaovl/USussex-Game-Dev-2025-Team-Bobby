@@ -72,6 +72,7 @@ public class EnemyAI : MonoBehaviour
 
         if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
             walkPointSet = true;
+        walkPointSet = true;
     }
 
     private void ChasePlayer()
@@ -122,7 +123,7 @@ public class EnemyAI : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(collision.gameObject);
-            TakeDamage(40);
+            TakeDamage(50);
         }
     }
 
